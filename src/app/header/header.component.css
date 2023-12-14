@@ -1,0 +1,101 @@
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+/*conduit-1*/
+.navbar-brand {
+  font-family: titillium web, sans-serif;
+  font-size: 1.5rem;
+  padding-top: 0;
+  margin-right: 2rem;
+  color: #5cb85c;
+  display: inline-block;
+  box-sizing: border-box;
+  padding-bottom: 0.25rem;
+}
+
+.navbar-nav {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  font-family: source sans pro, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #373a3c;
+  margin-right: 1rem;
+}
+
+/*讓Home,Sign in,Sign up靠右*/
+.pull-xs-right {
+  float: right;
+}
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+/*Home,Sign in,Sign up原本顏色*/
+.navbar-nav a.nav-link {
+  color: #868585;
+}
+/*懸停時顏色*/
+.navbar-nav a.nav-link:hover {
+  color: #333;
+}
+
+/*綠綠那個框框*/
+h1 {
+  color: white;
+  background-color: #5cb85c;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+/*綠框裡的conduit*/
+h1 > ul {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+  text-align: center;
+  font-size: 3.5rem;
+  padding-bottom: 0.5rem;
+  font-family: titillium web, sans-serif;
+}
+
+/*綠框裡下面的英文*/
+h1 > ul > li {
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 0;
+}
+
+/*綠框裡的Angular*/
+h1 > ul > li > a {
+  font-style: italic;
+  list-style: none;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+/*去除不知道為甚麼會出現的底線*/
+.navbar-nav a.nav-link,
+.navbar-brand,
+h1 > ul > li > a {
+  text-decoration: none;
+}
